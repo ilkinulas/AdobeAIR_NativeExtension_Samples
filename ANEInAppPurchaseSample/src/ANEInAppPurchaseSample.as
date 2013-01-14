@@ -13,7 +13,7 @@ public class ANEInAppPurchaseSample extends Sprite {
         addChild(textField);
 
         var inAppPurchase : InAppPurchase  = InAppPurchase.getInstance();
-        inAppPurchase.makePurchase("benjamin_100_coins");
+        inAppPurchase.makePurchase("android.test.purchased");
 
         inAppPurchase.addEventListener(InAppPurchaseEvent.PURCHASE_ERROR, handlePurchaseError);
         inAppPurchase.addEventListener(InAppPurchaseEvent.PURCHASE_SUCCESSFULL, handlePurchaseSuccess);
