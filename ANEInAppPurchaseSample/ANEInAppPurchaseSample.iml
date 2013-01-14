@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="ANEInAppPurchaseSample">
+    <configurations>
+      <configuration name="ANEInAppPurchaseSample" target-platform="Mobile" pure-as="true" main-class="ANEInAppPurchaseSample" output-file="ANEInAppPurchaseSample.swf" output-folder="$MODULE_DIR$/../out/production/ANEInAppPurchaseSample">
+        <dependencies target-player="11.1">
+          <entries>
+            <entry library-id="83092364-956a-44ef-be6c-61d84aeaa190">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="4.6.0" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/ANEInAppPurchaseSample-app.xml" package-file-name="ANEInAppPurchaseSample">
+          <AirSigningOptions keystore-path="$USER_HOME$/air_test_certificate.p12" use-temp-certificate="false" />
+        </packaging-android>
+        <packaging-ios package-file-name="ANEInAppPurchaseSample" />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="4.6.0" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="83092364-956a-44ef-be6c-61d84aeaa190" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../OPEN_SOURCE/ANE-In-App-Purchase/Binaries/InAppPurchase.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
