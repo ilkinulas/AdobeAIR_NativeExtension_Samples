@@ -11,3 +11,9 @@ Compiling ANE tips:
 * You must use 32 bit JVM. Flex SDK can not build the native extension with 64 JVM.
  1. Edit "/Applications/Adobe Flash Builder 4.7/sdks/4.6.0/bin/jvm.config" file. Add "-d32" parameter to "java.args".
  2. export JAVA_HOME=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/
+
+
+Facebook integration tips:
+* If you can not figure out the value of the android hash-key, check the logcat error message returned from facebook. Copy the hash-key written in the error log and paste it into the proper field in facebook application console.
+
+NOT : samples are for android only.
